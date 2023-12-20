@@ -1,0 +1,53 @@
+.container {
+    height: 500px;
+    width: 500px;
+    border: 4px solid black;
+    background-color: aquamarine;
+    /* transition-property: all;
+    transition-duration: 5s;
+    transition-timing-function: steps(20);
+    transition-delay: 1s; */
+    /* shorthand */
+    /* transition: all 2s ease-in; */
+    /* animation-name: firstAnime;
+    animation-duration: 4s;
+    animation-timing-function: ease-in;
+    animation-delay: 1s;
+    animation-iteration-count: 5;
+    animation-direction: alternate; */
+    /* shorthand */
+    animation: firstAnime 4s ease 1s infinite alternate-reverse both;
+    position: absolute;
+}
+
+@keyframes firstAnime {
+    5% {
+        left: 20px;
+        background-color: aquamarine;
+    }
+    50% {
+        left: 100px;
+        background-color: cyan;
+        /* transform: translate(200px); */
+    }
+    100% {
+        left: 250px;
+        background-color: blue;
+    }
+}
+
+
+/* .container:hover {
+    border: 2px solid black;
+    background-color: cyan;
+    color: darkblue;
+    font-size: 100px;
+    transform: rotateZ(80deg);
+    transform: scaleZ(2);
+    transform: translateZ(200px);
+    transform: skew(80deg);
+}
+.container:active {
+    background-color: palevioletred;
+    color: white;
+} */

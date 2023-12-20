@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#div1 {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 50%;
+    margin: 10px;
+}
+nav {
+    background-color: #0f1111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 100%;
+}
+a {
+    text-transform: capitalize;
+    margin-right: 180px;
+    text-decoration: none;
+}
+.menu {
+    color: white;
+}
+#logo {
+    color: #f08804;
+    text-transform: lowercase;
+}
+#searchButton {
+    background-color: #f08804;
+    color: white;
+}
+

@@ -1,0 +1,14 @@
+#box {
+    background-color: pink;
+}
+div {
+    color: green;
+    background-color: blue;
+}
+.heading {
+    color: red;
+}
+button:hover {
+    background-color: red !important;
+    color: white;
+}

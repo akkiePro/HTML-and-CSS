@@ -1,0 +1,12 @@
+div {
+    height: 100px;
+    width: 100px;
+    background-image: url(../peace.jpg);
+    background-size: cover;
+    position: fixed;
+    z-index: -1;
+    right: 0px;
+    bottom: 100px;
+    
+    /* border: 1px solid black; */
+}

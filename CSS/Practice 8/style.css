@@ -1,0 +1,16 @@
+#container {
+    height: 400px;
+    width: 400px;
+    border: 20px solid cyan;
+    border-top: 20px solid aquamarine;
+    border-radius: 100%;
+    animation: spinner 0.8s ease-in-out 1s infinite normal none;
+}
+@keyframes spinner {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
